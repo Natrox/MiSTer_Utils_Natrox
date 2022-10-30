@@ -34,7 +34,7 @@ This is a complete list of everything found in this repository. It will be updat
 `scripts`
 ---------
 * `migrate_sd.sh` 
-This utility can be used on a running MiSTer system to migrate to a new SD card. The target SD card can be of any size - as long as it can fit all of the data on the source SD card. It performs a number of checks to make sure that the migration will be successful. 
+This utility can be used on a running MiSTer system to migrate to a new SD card. A USB SD card adapter is required to be connected to your MiSTer. The target SD card can be of any size - as long as it can fit all of the data on the source SD card. It performs a number of checks to make sure that the migration will be successful. 
 A key feature of this utility is that it looks at the source SD card's disk geometry and reproduces the required geometry on the new SD card. This means that the U-Boot partition located at the tail-end of the disk is copied over, while the rest of the card is formatted to exFAT for data use. All of the original data is copied over. 
 This utility is designed to be run from the MiSTer main menu, it will guide you through disk selection and it performs the necessary checks. During the process, it will freeze the main MiSTer binary to ensure file integrity. 
 It can also be used to make a backup SD - although it is not suitable for incremental backups.
