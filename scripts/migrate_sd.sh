@@ -16,7 +16,7 @@
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 # Version string
-_version="0.2.0"  # Released 2022-11-02
+_version="0.2.0"  # Released 2022-11-04
 
 # Small changelog
 # v0.2.0 -- Added functionality to filter out directories if desired,
