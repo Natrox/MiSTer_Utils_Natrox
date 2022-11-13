@@ -38,6 +38,9 @@ This utility can be used on a running MiSTer system to migrate to a new SD card.
 A key feature of this utility is that it looks at the source SD card's disk geometry and reproduces the required geometry on the new SD card. This means that the U-Boot partition located at the tail-end of the disk is copied over, while the rest of the card is formatted to exFAT for data use. All of the original data is copied over by default - version 0.2.0 introduces folder filtering, giving you the option to skip folders if you so desire. 
 This utility is designed to be run from the MiSTer main menu, it will guide you through disk selection and it performs the necessary checks. During the process, it will freeze the main MiSTer binary to ensure file integrity. 
 It can also be used to make a backup SD - although it is not suitable for incremental backups.
+* `psx_chd_organize.sh` 
+An extremely simple utility that will organize loose `.chd` images in `/media/fat/games/PSX` into folders. 
+Includes support for multi-disk games. To be expanded some day. 
 
 Where is the rest?
 ==================
