@@ -41,6 +41,11 @@ It can also be used to make a backup SD - although it is not suitable for increm
 * `psx_chd_organize.sh` 
 An extremely simple utility that will organize loose `.chd` images in `/media/fat/games/PSX` into folders. 
 Includes support for multi-disk games. To be expanded some day. 
+* `auto_downclock.sh` 
+This utility automatically downclocks the MiSTer to 400MHz if a wireless controller loses connection. The idea behind it is that whenever the controller disconnects, it is likely that I am not using the MiSTer. 
+When the controller reconnects, the MiSTer is clocked back up to what is normally runs at. 
+It is compatible with the overclocking scripts. However, it is ultimately a fairly useless utility since running at a lower clock speed does not seem to impact thermals at all. 
+Use at your own risk, I have only tested this with the wireless Xbox 360 dongle. 
 
 Where is the rest?
 ==================
