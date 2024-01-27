@@ -1,3 +1,7 @@
+Like my work?
+=============
+Support me on https://ko-fi.com/natrox !
+
 Last updated on: 2022-10-30
 
 Extra utilities for your MiSTer FPGA
