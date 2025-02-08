@@ -2,7 +2,11 @@ Like my work?
 =============
 Support me on https://ko-fi.com/natrox !
 
-Last updated on: 2022-10-30
+Last updated on: 2022-10-3
+
+Have an idea for a utility and need a specific one?
+===================================================
+Please open a PR with "[Utility request". `migrate_sd.sh` was also made by request after all.
 
 Extra utilities for your MiSTer FPGA
 ====================================
