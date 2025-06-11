@@ -1,8 +1,14 @@
-Like my work?
+A plea
 =============
-Support me on https://ko-fi.com/natrox !
+**Please** support me on https://ko-fi.com/natrox!
+As of writing (7th of June 2025), I am going through a very hard time financially.
 
-Last updated on: 2022-10-3
+Many people use the SD migration tool. It is available for free to help the community.
+However, if you think the utility has helped you well, 
+
+I would appreciate your support!
+
+Last updated on: 2025-06-07
 
 Have an idea for a utility or need a specific one?
 ===================================================
