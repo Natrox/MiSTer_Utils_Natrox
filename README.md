@@ -25,7 +25,7 @@ These are subject to change, but right now this is how I have things set up:
 
 | Directory   | Description                                                |
 | ----------- | ----------------------------------------------------------:|
-| `scripts`   | Scripts and binaries for use ON the MiSTer FPGA.           |
+| `Scripts`   | Scripts and binaries for use ON the MiSTer FPGA.           |
 | `docs`      | Documentation and tutorials generally related to MiSTer.   |
 | `host`      | Scripts and binaries for use on Linux I think are useful.  |
 
@@ -33,19 +33,29 @@ Each entry in each folder will have some description in this README.
 
 How to use
 ----------
-For `scripts`, you can clone this repository or directly download the raw files. Put them in `/media/fat/Scripts`.
-If you cherry-pick your downloads, some of the programs in `scripts` may have dependencies - these will be checked for at run-time, so you can figure out which other files you should download. These dependencies are strictly limited to this repository.
+For `Scripts`, if your MiSTer isn't connected to the Internet you can clone this repository or directly download the raw files. Put them in `/media/fat/Scripts`.
+
+If your MiSTer is connected to the Internet you can add the following to `/media/fat/downloader.ini`:
+
+```ini
+[MiSTer_Utils_Natrox]
+db_url = https://raw.githubusercontent.com/Natrox/MiSTer_Utils_Natrox/db/db.json.zip
+```
+
+Then run `update_all` to install the scripts.
+
+If you cherry-pick your downloads, some of the programs in `Scripts` may have dependencies - these will be checked for at run-time, so you can figure out which other files you should download. These dependencies are strictly limited to this repository.
 I also recommend to try and read the scripts. Although I will do my best to explain them in this README, it is always good to know what you are installing.
 
 The `docs` folder will have tutorials and documentation in either markdown or PDF format. Some of these documents are related to the programs found in this repository - while others are not. All documents do relate to either MiSTer FPGA, or relate to procedures that help you accomplish certain goals useful for your MiSTer. `docs` does not follow the GPLv3 license - everything within is _Public Domain_.
 
-Utilities for use on your computer can be found in `host`. Although some of these may work on MiSTer's embedded operating system, they are principally designed for use on computers running some flavor of Linux. As with the programs in `scripts`, the programs in `host` may have dependencies (including external ones). It is recommended to download/clone the entire folder. For external dependencies, I aim to include dependency checking within each program, but I can not guarantee it. As usual, please read the source code to get a better idea of how these programs function.
+Utilities for use on your computer can be found in `host`. Although some of these may work on MiSTer's embedded operating system, they are principally designed for use on computers running some flavor of Linux. As with the programs in `Scripts`, the programs in `host` may have dependencies (including external ones). It is recommended to download/clone the entire folder. For external dependencies, I aim to include dependency checking within each program, but I can not guarantee it. As usual, please read the source code to get a better idea of how these programs function.
 
 Descriptions
 ============
 This is a complete list of everything found in this repository. It will be updated as more data is added.
 
-`scripts`
+`Scripts`
 ---------
 * `migrate_sd.sh` 
 This utility can be used on a running MiSTer system to migrate to a new SD card. A USB SD card adapter is required to be connected to your MiSTer. The target SD card can be of any size - as long as it can fit all of the data on the source SD card. It performs a number of checks to make sure that the migration will be successful. 

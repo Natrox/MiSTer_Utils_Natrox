@@ -1,0 +1,27 @@
+---
+name: Build Custom Database
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions: write-all
+
+jobs:
+  build_db:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Install apt-get utilities
+      run: sudo apt-get install sharutils
+
+    - uses: actions/checkout@v2
+
+    - name: Build Custom Database for MiSTer Downloader
+      run: set -o pipefail && curl --fail --location https://raw.githubusercontent.com/theypsilon/Downloader_DB-Template_MiSTer/main/.github/build_db.py | python3 -
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DB_ID: MiSTer_Utils_Natrox
+        FINDER_IGNORE: docs host
