@@ -1,14 +1,21 @@
-A plea
+Thank you for your support
 =============
-**Please** support me on https://ko-fi.com/natrox!
-As of writing (7th of June 2025), I am going through a very hard time financially.
+Many of you have supported me and made by day. I still would appreciate more support.
+Please support me on https://ko-fi.com/natrox!
+As of writing (1st of October 2025), I am going atill going through financial hardships
 
 Many people use the SD migration tool. It is available for free to help the community.
 However, if you think the utility has helped you well, 
 
 I would appreciate your support!
 
-Last updated on: 2025-06-07
+Last updated on: 2025-10-01
+
+My response to your support
+===========================
+There is a new branch called `indev` which I will be using to improve the script.
+I would also like to hear from you! Send your feedback, ideas, any kind of input to:
+lea.coding@pm.me
 
 Have an idea for a utility or need a specific one?
 ===================================================
