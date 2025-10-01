@@ -1,18 +1,19 @@
-A plea
-=============
-**Please** support me on https://ko-fi.com/natrox!
-As of writing (7th of June 2025), I am going through a very hard time financially.
+Last updated on: 2025-10-01
 
-Many people use the SD migration tool. It is available for free to help the community.
-However, if you think the utility has helped you well, 
-
-I would appreciate your support!
-
-Last updated on: 2025-06-07
+Welcome to indev
+================
+This is a highly active branch where I attempt tp improbr based upon feedback.
+Clear goals for now are the following
+1. Add correct error handling and logging.
+2. Re-mount the system as "read-only" periodically.
+3. Improve speed where possible, perhaps using compression on-the-fly. Possibly zstd, since it is quite fast even on armv7hl.
+4. Improve the UX. I will need you feedback! See the section below.
 
 Have an idea for a utility or need a specific one?
 ===================================================
 Please open a PR with "[Utility request]". `migrate_sd.sh` was also made by request after all.
+Alternatively, you can send any communication to: lea.coding@pm.me
+You can also reach out to me on DIscord, via the lovely MiSTer FPGA community.
 
 Extra utilities for your MiSTer FPGA
 ====================================
