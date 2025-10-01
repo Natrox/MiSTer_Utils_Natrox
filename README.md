@@ -2,7 +2,7 @@ Thank you for your support
 =============
 Many of you have supported me and made by day. I still would appreciate more support.
 Please support me on https://ko-fi.com/natrox!
-As of writing (1st of October 2025), I am going atill going through financial hardships
+As of writing (1st of October 2025), I am going still going through financial hardships...
 
 Many people use the SD migration tool. It is available for free to help the community.
 However, if you think the utility has helped you well, 
