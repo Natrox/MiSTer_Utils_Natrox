@@ -1,5 +1,5 @@
 Thank you very kindly for your support!
-!=============
+=======================================
 Many of you have supported me and made by day. I still would appreciate more support.
 Please support me on https://ko-fi.com/natrox!
 As of writing (1st of October 2025), I am going still going through financial hardships...
